@@ -4,6 +4,7 @@
 const {argv} = require('yargs');
 const upload = require('../lib/upload')
 const getVersion = require('../lib/getVersion')
+const deploy = require('../lib/deploy')
 
 if (argv.version)
   getVersion();
