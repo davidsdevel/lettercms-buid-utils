@@ -1,0 +1,15 @@
+{
+  "name": "@lettercms/build-utils",
+  "version": "0.0.2",
+  "bin": {
+    "lettercms": "./bin"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ibm-cos-sdk": "^1.11.0",
+    "yargs": "^3.4.5"
+  },
+  "devDependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
