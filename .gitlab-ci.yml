@@ -5,9 +5,10 @@ stages:
 
 release:
   stage: release
-  before_script: yarn
   cache:
     key: lettercms-build-utils
     paths:
       - node_modules
-    script: npm publish --access public
+  script:
+  - yarn
+  - npm publish --access public
